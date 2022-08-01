@@ -14,7 +14,6 @@ p{
 #main-title{
   margin: auto;
 }
-
 @keyframes animation-one{
   0%{
     border:#EFEFEF 5px solid;
@@ -25,15 +24,20 @@ p{
 }
 #profile{
   /*border:#EFEFEF 5px solid;*/
+  
+  clear: both;
+  display: block;
   border-radius: 50%; 
   width: 100px; 
   height: 100px;
   margin:auto;
   animation: animation-one 1.5s ease-in-out  infinite alternate;
   align-self: center;
-
+  text-align:center;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .mainpage{
   display: grid;
 }
@@ -53,8 +57,10 @@ p{
   color: #F66B0E;
 }
   img {
+  display: block;
   max-width: 100%;
   height: auto;
+  width: auto;
 
 }
 
@@ -80,7 +86,7 @@ p{
 
   }
   .menu{
-    height: 30%;
+    max-height: 30%;
 
   }
   .menu-row{
